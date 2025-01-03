@@ -42,7 +42,7 @@ nav ul{
     color:black;
 }
 .box:hover{
-    background-color: black;
+    background-color: rgb(44, 43, 43);
     color:white;
 }
 .game-container{
