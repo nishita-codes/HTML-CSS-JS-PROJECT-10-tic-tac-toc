@@ -42,8 +42,8 @@ nav ul{
     color:black;
 }
 .box:hover{
-    background-color: rgb(44, 43, 43);
-    color:white;
+    background-color: rgb(236, 218, 244);
+    color:black;
 }
 .game-container{
     /* background-color: black; */
@@ -55,7 +55,8 @@ nav ul{
 .game-Info{
     color:black;
     padding: 0 34px;
-    font-family: "Baloo Bhaina 2", serif;;
+    font-family: "Baloo Bhaina 2", serif;
+    font-size: 25px;
 }
 
 .images img{
@@ -78,9 +79,27 @@ nav ul{
 #reset{
   margin:0 23px;
   padding:6px 14px;
-  background-color: rgb(21, 19, 19);
-  color:white;
+  background-color: rgb(221, 175, 243);
+  color:black;
   border-radius: 6px;
   cursor:pointer;
   border:none;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.Info{
+    font-size: 25px;
+}
+
+@media screen and (max-width: 800px) {
+    .game-container{
+        flex-wrap: wrap;
+    }
+    .game-Info{
+        margin-top: 34px;
+    }
+    .game-Info h1{
+        font-size: 1.8rem;
+    }
+    
 }
