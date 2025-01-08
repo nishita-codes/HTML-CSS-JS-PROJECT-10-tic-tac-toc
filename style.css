@@ -57,8 +57,10 @@ nav ul{
     padding: 0 34px;
     font-family: "Baloo Bhaina 2", serif;;
 }
+
 .images img{
-    display: none;
+    width:0;
+    transition: width 1s ease-in-out;
 }
 
 .br-0{
